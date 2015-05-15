@@ -3,23 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Tarmo loovtöö</title>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<style type="text/css">
+			body {
+				background-color: #eeeeee;
+			}
 			body, img {
 				margin: 0;
 				padding: 0;
 			}
 			
-			#contents {
-				width: 800px;	
-				font-family: "PT Sans";
-				margin: 50px auto 50px auto;
-				background-color: #fff;
+			h2, h3 {
+				font-family: "Open Sans Semibold";
 			}
 			
-			h1 {
+			#contents {
+				width: 650px;
+				font-family: "Open Sans";
+				font-size: 1.1em;
+				margin: 50px auto 50px auto;
+				padding: 30px 60px 30px 60px;
+				background-color: white;
+				-webkit-box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
+			}
+			
+			h1#title {
 				margin-top: 0;
 				text-align: center;
+				margin-bottom: 0px;
 			}
 			
 			.bodytext {
@@ -30,21 +43,59 @@
 				text-align: center;
 			}
 			
+			h3#author {
+				font-family: "Open Sans";
+				font-weight: normal;
+				text-align: center;
+				margin-top: 0px;
+			}
+			
 			.result img {
 				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.comparison {
+			width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.comparison img {
+				width: 200px;
 			}
 			
 			.swap {
 				margin-bottom: 100px;
-				width: 400px;
+				width: 600px;
 				margin-left: auto;
 				margin-right: auto;
+				margin-top: 40px;
+				margin-bottom: 40px;
+				padding-top: 20px;
+				padding-bottom: 40px;
+			}
+			
+			.swap h2 {
+				text-align: center;
+			}
+			
+			hr{
+				border: 0;
+				color: red;
+				height: 1px;
+				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
+				background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
+				background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
+				background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
 			}
 		</style>
     </head>
     <body>
 		<div id="contents">
-        <h1>Tarmo loovtöö pealkiri</h1> <!-- http://placehold.it/350x150 -->
+        <h1 id="title">Tarmo loovtöö pealkiri</h1>
+		<h3 id="author">Tarmo Pungas</h3>
 		<div id="intro" class="bodytext">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in accumsan ligula, auctor aliquam lorem. Curabitur posuere, velit ac gravida condimentum, lacus lacus gravida elit, id iaculis magna massa id erat. Quisque vitae vehicula diam.</p>
 			<p>Duis augue dui, venenatis ac est quis, pretium accumsan nisl. Suspendisse quis accumsan tellus, eu consectetur sapien. Nam nec arcu vitae turpis condimentum mollis aliquet vitae urna. Suspendisse ac semper sem. Etiam a mollis augue.</p>
@@ -52,11 +103,121 @@
 		</div>
 		
 		<div class="swap">
+			<h2>Birgit Õigemeel ja Andrus Ansip</h2>
 			<div class="result">
-			<img src="http://placehold.it/400x500/111111/ffffff" />
+			<img src="https://lh5.googleusercontent.com/cXq1MWmuqK-OYZisfBhJLR3NhKCANNScPiLYznqpmfS4YmnooXO053qEaW1uktDrUZJ8Nw=w1811-h868" />
 			</div>
 			<div class="comparison">
-			<img src="http://placehold.it/200x250/444444/ffffff" /><img src="http://placehold.it/200x250" />
+			<img src="https://lh5.googleusercontent.com/PkNo96uf2IplURRxTN9Rz1zx8500FcFPuShYenQVGZMFb-T0ucGkDudkDdTRmda-rfqtjA=w1811-h868" /><!--
+			--><img src="https://lh3.googleusercontent.com/g8jeW-v4w-ILt9-coSv-GccCRYj9wGqE9Ry1N6gFvHjWTKQ7vOVRluSOPqxFpdEf_v6cug=w1811-h868" />
+			</div>
+		</div>
+		<hr>
+		
+		<div class="swap">
+			<h2>Eda-Ines Etti ja Märt Avandi</h2>
+			<div class="result">
+			<img src="https://lh5.googleusercontent.com/wkoJtlWFeM0xgS54QcfTjBGlV0qV8WHQpCl_mRB_CxEkidwtTCq-QEqea6TlBMar6DbkRw=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh3.googleusercontent.com/DLYhJVVFCNKCtQifzi7tRY45GYJ13iVTeT89ZOwX0ijmIoAFOulRPmUC39Lg2L26_ToZ_Q=w1811-h868" /><!--
+			--><img src="https://lh6.googleusercontent.com/ypskR9Yp5gLD5AXelOToKdWKOuprWDdkZ1hYVflYDM68lGXOwFB2Ot-nQ5d6xKE4sSy7ZQ=w1811-h868" />
+			</div>
+		</div>
+		<hr>
+		
+		<div class="swap">
+			<h2>Getter Jaani ja Priit Pius</h2>
+			<div class="result">
+			<img src="https://lh6.googleusercontent.com/MdVKoG4MU4VhrBVuNm7w9xDLAZoYpk6vH3K_IGXy7rjSHBg3rQGI7tnzALjuW8ZI5KPZeQ=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh4.googleusercontent.com/_t5u0D9lo2_gIurg1oHwzHb6trfGXSiXO25SvVNVv1RWLNrGt8NEGH8BJ099m3I5UYG34g=w1811-h868" /><!--
+			--><img src="https://lh5.googleusercontent.com/llxEsvWaZOs5aQlXslBjI4rBd3WH4f16mJGTLAx4oLJSetmDE27iwNBgLYZ3WMg00U7ynA=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Marko Reikop ja Maarja-Liis Ilus</h2>
+			<div class="result">
+			<img src="https://lh5.googleusercontent.com/Id0KbfY8y_C-fiOR3bwVvwOWgN7WIFZL423cTphQ6wgfb5J01JAp10RqYNfm4ia1eZP2zA=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh3.googleusercontent.com/qOSr17XewpBVvKR4f4sa_JGNd0gwelNQbPZdNoNja-2LjPrZnys4wWLNeDR4m9Zfjl20_Q=w1811-h868" /><!--
+			--><img src="https://lh4.googleusercontent.com/Ogd6MVG7lPmJROBwktu_OpXQIhD6oPDX_WdW6wYDNq59ibXPgeqkdd6Ax0wtlXWspb7B8Q=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Jan Uuspõld ja Maire Aunaste</h2>
+			<div class="result">
+			<img src="https://lh4.googleusercontent.com/bM9sL0dQV4NFBF_g6pKwkdFSAEkry8pg2RpVnsGHeD9LT9xNBkJJlI1FbP8FvILgjPJpJw=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh3.googleusercontent.com/2r508XqCWlHR6kGyNYDBSM3WoVyWduWlkZ00g78Rxq1r4KqSSxFzcDrypifxLIrVtjF0-g=w1811-h868" /><!--
+			--><img src="https://lh3.googleusercontent.com/M-RswwrxkD-LbmIQ9iCVMAVDMJvEonxQJ2kRZiL_CG3_znOUAK8MPHPa068DD3A2kqQGXA=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Koit Toome ja Tanel Padar</h2>
+			<div class="result">
+			<img src="https://lh3.googleusercontent.com/QtyD0SHpimvdBImE2EpSubW7EKeqS_Sh4SSTuDZb--MjWjsK6KuwyHIruBCwPG4EAp8GPw=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh4.googleusercontent.com/wrQZ3eJloJCmFHaAtfGng60TYEXpG6hTwIv45TxUuNLsg1g77RVQwJbG_PfJunbHky_hlQ=w1811-h868" /><!--
+			--><img src="https://lh3.googleusercontent.com/aNM4-tWUhcP4fQjBhPQCp8WEe8mah06nssHySdllIjO2LcSbCjrnvtE09Q9wnZMhpArmQA=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Hanna-Liina Võsa ja Ott Lepland</h2>
+			<div class="result">
+			<img src="https://lh5.googleusercontent.com/hOQBJX3o-CyrDJE7hQSykJRRz1aAwGgJ_i0OnstaKNHQkZRHuANPSISS-ERkTAac12tCiA=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh6.googleusercontent.com/SaabxbmF1ENzeIYBgJjDhMklfJq9wvMpmoASueAT-_NFAiASnkzWESiB9oXktj20Ad9tOw=w1811-h868" /><!--
+			--><img src="https://lh3.googleusercontent.com/crflQFaOTHBhbewIYplJlW6WQB7s1MLn8608SnE1iAaO4Tp3uX-A-of3cD60-dFAUut65w=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Piret Järvis ja Rolf Roosalu</h2>
+			<div class="result">
+			<img src="https://lh5.googleusercontent.com/nceNAXqpNo2SSPflsqvUO4Xq-QnQgRAxMfI0tLnfb6wlbm8ZHZtPjtYVn8M_NJR0z4Zk4w=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh3.googleusercontent.com/UH_7RjV8lfevHBQfhykP1cAzfQNniu4Ox_VBtg-hFLx9E63Y6M0lihJ4iNm75PQuhGEcGg=w1811-h868" /><!--
+			--><img src="https://lh5.googleusercontent.com/aapBbO8oi7MeEwg9BowULHcwXN_ZK9OmvgwuYt4kzErz375RG5Ymv23ObBdc7lCGEsABkQ=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Taavi Rõivas ja Luisa Värk</h2>
+			<div class="result">
+			<img src="https://lh4.googleusercontent.com/wOTzdriE2wtGxFJwlgDP_x_imi13cGNJEOOQTzrjWMYU4Stcb5cBR2Qt65zuzSzJrI9awA=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh4.googleusercontent.com/vUzeHgHVx_i8LS7aC-p5jgfpopIaclgt_o_Ob3utPUQ0kojf-mKje_-74NYzjNbZ3gSNVg=w1811-h868" /><!--
+			--><img src="https://lh5.googleusercontent.com/TV4siwHP9y_vdNnCQiBIT_7jmtA7BAUZkqwO6lp1J6wKJS8soB7K3RyhyQzmjsSSNsPwyA=w1811-h868" />
+			</div>
+		</div>	
+		<hr>
+		
+		<div class="swap">
+			<h2>Stig Rästa ja Elina Born</h2>
+			<div class="result">
+			<img src="https://lh6.googleusercontent.com/Rco0in5iLPeLgcyospgl4m5nrW_nWH0yWpeyRWfl6fOB4Uqq8np6troFaOPCQp1qfPpH_g=w1811-h868" />
+			</div>
+			<div class="comparison">
+			<img src="https://lh5.googleusercontent.com/lcHraVLgRnTgTucC7g7wgb8cZlkbxoSTkLXMRGNIppt6JsLW4fqrFzgaUqDtDh69lAVJ-Q=w1811-h868" /><!--
+			--><img src="https://lh5.googleusercontent.com/6WGywYF8IMCmQ-_IumuONJxnrjFEZaD9Sk4cFNlBRK0z1yMrleS06ZK3DS93AHRdsBtTOw=w1811-h868" />
 			</div>
 		</div>	
 		
