@@ -102,11 +102,21 @@
 				background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
 				background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(187, 187, 187, 0.75), rgba(0,0,0,0)); 
 			}
+			
+			.share-buttons {
+				width: 200px;
+				height: 26px;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		</style>
 	<script src="lib/jquery-2.1.4.min.js"></script>
 	<script src="lib/jquery.lazyload.min.js"></script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "c9cae321-ad78-4ab6-9184-84f7ad724e9a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     </head>
     <body>
+		<!-- GA tracking -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -119,22 +129,16 @@
 		$(function() {
 			$("img").lazyload();
 		});
-
 		</script>
-		
-		<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
-			<a class="a2a_button_facebook"></a>
-			<a class="a2a_button_twitter"></a>
-			<a class="a2a_button_google_plus"></a>
-			<a class="a2a_button_pinterest"></a>
-			<a class="a2a_dd" href="http://www.addtoany.com/share_save"></a>
-		</div>
-
-		<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
 		
 		<div id="contents">
         <h1 id="title">Eesti tuntud inimeste nägude vahetus</h1>
 		<h3 id="author">Tarmo Pungas</h3>
+		
+		<div class="share-buttons">
+			<span class='st_facebook_hcount' displayText='Facebook'></span>
+			<span class='st_twitter_hcount' displayText='Tweet'></span>
+		</div>
 		
 		<div class="swap">
 			<h2>Birgit Õigemeel ja Andrus Ansip</h2>
@@ -254,6 +258,11 @@
 			--><img class="lazy" data-original="images/rasta_born2.jpg" />
 			</div>
 		</div>	
+		
+		<div class="share-buttons">
+			<span class='st_facebook_hcount' displayText='Facebook'></span>
+			<span class='st_twitter_hcount' displayText='Tweet'></span>
+		</div>
 		
 		</div>
     </body>
